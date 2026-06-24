@@ -1,0 +1,22 @@
+.game-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.game-container .choice-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #333;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    transition: all 0.2s ease;
+}
+
+.game-container .choice-button:hover {
+    background-color: #e2e6ea;
+    transform: translate(-2px);
+}
